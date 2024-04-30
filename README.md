@@ -4,6 +4,8 @@
 >
 <div style="text-align: right; width: 100%;">
   <img src="/images/Screenshot(107).png" width="100" height="100">
+  <img src="/images (2).jpeg" width="100" height="100">
+  
 </div>
 
 These libraries were used in the code: СV2, NumPy, Matplotlib, MediaPipe, Keras, Scikit-learn.

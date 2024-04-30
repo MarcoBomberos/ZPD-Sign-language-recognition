@@ -1,1 +1,1 @@
-# ZPD-Sign-language-recognition
+# ZPD SLR algorithm based on TensorFlow

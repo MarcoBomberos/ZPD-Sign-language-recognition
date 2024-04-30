@@ -1,1 +1,1 @@
-# ZPD SLR algorithm based on TensorFlow
+# SLR algorithm based on TensorFlow (ZPD)

@@ -2,7 +2,7 @@
 
 This repository contains the implementation of a sign recognition algorithm designed to accurately identify and classify signs from images. The system uses a combination of image processing and LSTM neural networks to achieve high accuracy.
 
-**Authors:** Jevgenijs Springis and Rustams Štalbērgs
+**Authors:** Jevgenijs Springis and Rustams Štālbergs
 
 **Educational institution:** Riga 80. Secondary School
 >**Note:** this code was created as part of a research project (ZPD)
@@ -19,17 +19,17 @@ This repository contains the implementation of a sign recognition algorithm desi
 
 The project is structured into several Python scripts, each handling a specific part of the sign recognition process:
 
+- `main.py`: The main driver script that integrates all components. It controls the data flow, initiates training sessions, and sets up the model evaluations.
+
 - `Collecting.py`: Responsible for collecting image data that will be used for training the LSTM network. It includes functionalities for image capture and storage.
 
 - `PreprocessingData.py`: Handles the preprocessing of image data to prepare it for training. This includes resizing, normalization, and augmentation techniques to enhance the dataset's variety and quality.
 
 - `LSTM_NET.py`: Contains the implementation of the LSTM neural network used for classifying signs. This script defines the architecture, training process, and evaluation metrics.
 
-- `main.py`: The main driver script that integrates all components. It controls the data flow, initiates training sessions, and sets up the model evaluations.
-
 - `MakePredictions.py`: Used to make predictions on new data using the trained LSTM model. It loads the model, processes input images, and outputs the classification results.
 
-- `Proverka2.py`: An additional script used for testing and verifying the accuracy and robustness of the trained model on unseen data.
+- `CheckCheck.py`: An additional script used for testing and verifying the accuracy and robustness of the trained model on unseen data.
 
 ## Setup and Installation
 

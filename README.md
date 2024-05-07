@@ -36,36 +36,30 @@ The project is structured into several Python scripts, each handling a specific 
 
 These libraries were used in the code: СV2, NumPy, Matplotlib, MediaPipe, Keras, Scikit-learn.
 
+Для обучения модели без использования ваших личных жестов скопируйте данные из папки **DATA**, и обучите модель, или сразу используйте модель **action.h5**.
+
 
 # STEP 1
 Using [CV2](https://opencv.org/), [Matplotlib](https://matplotlib.org/) and [NumPy](https://numpy.org/), we select points on the body with which our future model will be trained. 
 <img src="/images/Screenshot(110).png" width="350" height="280">
 
-Sejas orientieri : 468
-
-Pozēšanas orientieri : 33
-
-L-rokas orientieri : 21
-
-K-rokas orientieri : 21
-
-Kopā: 543
+**Facial landmarks:** 468;    **Posing landmarks:** 33;    **R-arm landmarks:** 21;    **L-hand landmarks:** 21;    **Total:** 543
 
 # STEP 2
 
-Datu iegūšana un vākšana
+Acquisition and collection of data
 
 <img src="/images/Screenshot(117).png" width="350" height="280">
 
 
 # STEP 3
-Apmācīt dziļu neitrālu tīklu ar LSTM slāņiem sekvences noteikšanai
+Train a deep neutral network with LSTM layers
 
 <img src="/images/Screenshot(105).png" width="600" height="280">
 
 
 # STEP 4
-Interaktīvā žestu atpazīšanas lietojumprogramma
+Interactive gesture recognition application
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/images/Screenshot(111).png" width="330" height="270">
@@ -75,11 +69,11 @@ Interaktīvā žestu atpazīšanas lietojumprogramma
 
 
 # STEP 5
-Rezultātu uzlabošana
+Improving results
 
-- Lai uzlabotu rezultātus, tika nolemts reģistrēt žestus no dažādiem leņķiem, citā attālumā no kameras un citā telpā.
-- Bija palielināts to kadru skaits, kas apkopo informāciju.
-- Bija nolemts saīsināt treniņu ēras, lai novērstu pārtrenēšano.
+- To improve the results, it was decided to record the gestures from different angles, at a different distance from the camera and in a different room.
+- The number of frames that gather information was increased.
+- It was decided to shorten the training periods to prevent overtraining.
 
 
 
